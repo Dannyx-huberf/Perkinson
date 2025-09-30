@@ -1,10 +1,10 @@
 import React from "react";
-import Footer from "./pages/Footer";
+import Client from "./pages/Client";
 
 const App = () => {
   return (
     <div>
-      <Footer />
+      <Client />
     </div>
   );
 };
