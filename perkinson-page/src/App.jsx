@@ -1,10 +1,10 @@
 import React from "react";
-import MyButton from "./components/my-components/MyButton";
+import Footer from "./pages/Footer";
 
 const App = () => {
   return (
     <div>
-      <MyButton />
+      <Footer />
     </div>
   );
 };
