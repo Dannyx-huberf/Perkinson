@@ -11,14 +11,47 @@ import service from "../../assets/image/sss.svg";
 
 const Bottom = () => {
   return (
-    <div className="lg:flex lg:justify-center lg:items-center lg:gap-[16px]">
-      <img src={typeform} alt="" className="w-[162px] h-[55px]" />
-      <img src={spotify} alt="" className="w-[128px] h-[47.61px]" />
-      <img src={shopify} alt="" className="w-[128px] h-[47.61px]" />
-      <img src={service} alt="" className="w-[162px] h-[55px]" />
-      <img src={wise} alt="" className="w-[128px] h-[47.61px]" />
-      <img src={anz} alt="" className="w-[162px] h-[55px]" />
-      <img src={samsung} alt="" className="w-[162px] h-[55px]" />
+    <div
+      className="
+        flex flex-wrap justify-center items-center gap-6
+        lg:flex-nowrap lg:gap-[16px]
+      "
+    >
+      <img
+        src={typeform}
+        alt="typeform"
+        className="w-[120px] sm:w-[140px] lg:w-[162px] h-auto"
+      />
+      <img
+        src={spotify}
+        alt="spotify"
+        className="w-[100px] sm:w-[120px] lg:w-[128px] h-auto"
+      />
+      <img
+        src={shopify}
+        alt="shopify"
+        className="w-[100px] sm:w-[120px] lg:w-[128px] h-auto"
+      />
+      <img
+        src={service}
+        alt="service"
+        className="w-[120px] sm:w-[140px] lg:w-[162px] h-auto"
+      />
+      <img
+        src={wise}
+        alt="wise"
+        className="w-[100px] sm:w-[120px] lg:w-[128px] h-auto"
+      />
+      <img
+        src={anz}
+        alt="anz"
+        className="w-[120px] sm:w-[140px] lg:w-[162px] h-auto"
+      />
+      <img
+        src={samsung}
+        alt="samsung"
+        className="w-[120px] sm:w-[140px] lg:w-[162px] h-auto"
+      />
     </div>
   );
 };
