@@ -1,10 +1,10 @@
 import React from "react";
-import Classes from "./pages/Classes";
+import Perkinson from "./pages/Perkinson";
 
 const App = () => {
   return (
     <div>
-      <Classes />
+      <Perkinson />
     </div>
   );
 };
