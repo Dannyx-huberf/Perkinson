@@ -1,10 +1,10 @@
-import React from "react";
-import MyButton from "./components/my-components/MyButton";
+import React from 'react';
+import NavBar from './components/NavBar';
 
 const App = () => {
   return (
-    <div>
-      <MyButton />
+    <div className='w-[90%] lg:w-[80%] mx-auto'>
+      <NavBar />
     </div>
   );
 };
