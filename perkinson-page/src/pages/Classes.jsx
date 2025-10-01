@@ -4,8 +4,8 @@ import { details } from "@/constants/utlitites";
 
 const Classes = () => {
   return (
-    <section className="lg:px-[100px] lg:py-[100px] ">
-      <div className="lg:flex lg:flex-col lg:gap-[100px]">
+    <section className="px-4 py-10 lg:px-[100px] lg:py-[100px]">
+      <div className="flex flex-col gap-12 lg:gap-[100px]">
         {details.map((details, index) => {
           return (
             <Card
