@@ -1,25 +1,34 @@
-// Bottom.jsx
 import React from "react";
+import FaqTab from "@/components/my-components/FaqTab";
+import { QA } from "@/constant/Info";
 
-import shopify from "../../assets/image/ii.png";
-import spotify from "../../assets/image/pp.png";
-import samsung from "../../assets/image/rt.svg";
-import wise from "../../assets/image/uu.png";
-import anz from "../../assets/image/tte.svg";
-import typeform from "../../assets/image/typeform.svg";
-import service from "../../assets/image/sss.svg";
+// Example images (you can replace with your own assets)
+import DesignIcon from "../../assets/image/Frame1.svg";
+import PaymentIcon from "../../assets/image/Frame2.svg";
+import BeginnerIcon from "../../assets/image/Frame3.svg";
+import SupportIcon from "../../assets/image/Frame4.svg";
+import WomanImage from "./WomanImage";
 
 const Bottom = () => {
+  const images = [DesignIcon, PaymentIcon, BeginnerIcon, SupportIcon];
+
   return (
-    <div className="lg:flex lg:justify-center lg:items-center lg:gap-[16px]">
-      <img src={typeform} alt="" className="w-[162px] h-[55px]" />
-      <img src={spotify} alt="" className="w-[128px] h-[47.61px]" />
-      <img src={shopify} alt="" className="w-[128px] h-[47.61px]" />
-      <img src={service} alt="" className="w-[162px] h-[55px]" />
-      <img src={wise} alt="" className="w-[128px] h-[47.61px]" />
-      <img src={anz} alt="" className="w-[162px] h-[55px]" />
-      <img src={samsung} alt="" className="w-[162px] h-[55px]" />
-    </div>
+    <section className="">
+      <div className="lg:flex lg:gap-[40px] lg:items-center">
+        <div className="space-y-4">
+          {QA.map((item, index) => (
+            <FaqTab
+              key={index}
+              question={item.question}
+              answer={item.answer}
+              image={images[index]}
+            />
+          ))}
+        </div>
+
+        <WomanImage />
+      </div>
+    </section>
   );
 };
 

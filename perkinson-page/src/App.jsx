@@ -1,10 +1,10 @@
 import React from "react";
-import Client from "./pages/Client";
+import Faq from "./pages/Faq";
 
 const App = () => {
   return (
     <div>
-      <Client />
+      <Faq />
     </div>
   );
 };
