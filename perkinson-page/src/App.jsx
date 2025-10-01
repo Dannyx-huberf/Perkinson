@@ -1,10 +1,10 @@
 import React from "react";
-import Client from "./pages/Client";
+import Classes from "./pages/Classes";
 
 const App = () => {
   return (
     <div>
-      <Client />
+      <Classes />
     </div>
   );
 };
