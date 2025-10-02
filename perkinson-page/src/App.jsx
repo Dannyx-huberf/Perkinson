@@ -10,6 +10,15 @@ const App = () => {
     <div className="lg:w-full  mx-auto">
       <NavBar />
       <HeroSection />
+      <div className='flex flex-col items-center'>
+      <nav className='w-full flex justify-center py-6'>
+        <HeroNav />
+      </nav>
+
+      <div className='w-full flex justify-center mt-4'>
+        <StackCard />
+      </div>
+    </div>
       <Client />
       <Classes />
       <Faq />
