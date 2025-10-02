@@ -9,6 +9,7 @@ import StackCard from "./components/nav-menu/StackCard";
 import WhySection from "./components/WhySection";
 import Perks from "./components/Perks";
 import Reviews from "./components/Reviews";
+import Perkinson from "./pages/Perkinson";
 
 const App = () => {
   return (
@@ -30,6 +31,7 @@ const App = () => {
       <Perks />
       <Reviews />
       <Faq />
+      <Perkinson />
     </div>
   );
 };
