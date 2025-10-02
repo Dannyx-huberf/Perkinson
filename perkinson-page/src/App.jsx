@@ -1,8 +1,9 @@
 import React from "react";
-import Client from "./pages/Client";
+import Faq from "./pages/Faq";
 import NavBar from "./components/NavBar";
 import { HeroSection } from "./components/HeroSection";
 import Classes from "./pages/Classes";
+import Client from "./pages/Client";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <HeroSection />
       <Client />
       <Classes />
+      <Faq />
     </div>
   );
 };

@@ -1,58 +1,42 @@
-// Bottom.jsx
 import React from "react";
+import FaqTab from "@/components/my-components/FaqTab";
+import { QA } from "@/constant/Info";
 
-import shopify from "../../assets/image/ii.png";
-import spotify from "../../assets/image/pp.png";
-import samsung from "../../assets/image/rt.svg";
-import wise from "../../assets/image/uu.png";
-import anz from "../../assets/image/tte.svg";
-import typeform from "../../assets/image/typeform.svg";
-import service from "../../assets/image/sss.svg";
+// Example images (replace with your own assets if needed)
+import DesignIcon from "../../assets/image/Frame1.svg";
+import PaymentIcon from "../../assets/image/Frame2.svg";
+import BeginnerIcon from "../../assets/image/Frame3.svg";
+import SupportIcon from "../../assets/image/Frame4.svg";
+import WomanImage from "./WomanImage";
 
 const Bottom = () => {
+  const images = [DesignIcon, PaymentIcon, BeginnerIcon, SupportIcon];
+
   return (
-    <div
-      className="
-        flex flex-wrap justify-center items-center gap-6
-        lg:flex-nowrap lg:gap-[16px]
-      "
-    >
-      <img
-        src={typeform}
-        alt="typeform"
-        className="w-[120px] sm:w-[140px] lg:w-[162px] h-auto"
-      />
-      <img
-        src={spotify}
-        alt="spotify"
-        className="w-[100px] sm:w-[120px] lg:w-[128px] h-auto"
-      />
-      <img
-        src={shopify}
-        alt="shopify"
-        className="w-[100px] sm:w-[120px] lg:w-[128px] h-auto"
-      />
-      <img
-        src={service}
-        alt="service"
-        className="w-[120px] sm:w-[140px] lg:w-[162px] h-auto"
-      />
-      <img
-        src={wise}
-        alt="wise"
-        className="w-[100px] sm:w-[120px] lg:w-[128px] h-auto"
-      />
-      <img
-        src={anz}
-        alt="anz"
-        className="w-[120px] sm:w-[140px] lg:w-[162px] h-auto"
-      />
-      <img
-        src={samsung}
-        alt="samsung"
-        className="w-[120px] sm:w-[140px] lg:w-[162px] h-auto"
-      />
-    </div>
+    <section className="px-4 py-10 sm:px-8 sm:py-12 lg:px-0 lg:py-0">
+      <div
+        className="flex flex-col gap-10 
+                      sm:gap-12 
+                      lg:flex lg:flex-row lg:gap-[40px] lg:items-center"
+      >
+        {/* FAQ Tabs */}
+        <div className="w-full space-y-6 sm:space-y-8 lg:space-y-4">
+          {QA.map((item, index) => (
+            <FaqTab
+              key={index}
+              question={item.question}
+              answer={item.answer}
+              image={images[index]}
+            />
+          ))}
+        </div>
+
+        {/* Woman Image - don’t shrink */}
+        <div className="flex justify-center lg:justify-end lg:flex-shrink-0">
+          <WomanImage />
+        </div>
+      </div>
+    </section>
   );
 };
 
