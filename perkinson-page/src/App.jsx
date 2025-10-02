@@ -7,6 +7,7 @@ import Client from "./pages/Client";
 import HeroNav from "./components/nav-menu/HeroNav";
 import StackCard from "./components/nav-menu/StackCard";
 import WhySection from "./components/WhySection";
+import Perks from "./components/Perks";
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
       <Client />
       <Classes />
       <WhySection />
+      <Perks />
       <Faq />
     </div>
   );
