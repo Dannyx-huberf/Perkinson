@@ -10,6 +10,7 @@ import WhySection from "./components/WhySection";
 import Perks from "./components/Perks";
 import Reviews from "./components/Reviews";
 import Perkinson from "./pages/Perkinson";
+import Footer from "./pages/Footer";
 
 const App = () => {
   return (
@@ -32,6 +33,7 @@ const App = () => {
       <Reviews />
       <Faq />
       <Perkinson />
+      <Footer />
     </div>
   );
 };
