@@ -5,7 +5,7 @@ import { HeroSection } from "./components/HeroSection";
 
 const App = () => {
   return (
-    <div className="w-[90%]  mx-auto">
+    <div className="lg:w-full  mx-auto">
       <NavBar />
       <HeroSection />
       <Client />
