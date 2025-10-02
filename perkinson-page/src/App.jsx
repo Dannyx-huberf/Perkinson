@@ -1,10 +1,10 @@
-import React from 'react';
-import { HeroSection } from './components/HeroSection';
+import React from "react";
+import NavBar from "./components/NavBar";
 
 const App = () => {
   return (
-    <div className='w-[90%] lg:w-[80%] mx-auto'>
-      <HeroSection />
+    <div className="w-[90%] lg:w-[80%] mx-auto">
+      <NavBar />
     </div>
   );
 };
