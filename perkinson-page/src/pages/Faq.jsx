@@ -8,8 +8,8 @@ const Faq = () => {
       className="
         bg-project-color 
         px-4 py-10 
-        sm:px-8 sm:py-14 
-        md:px-12 md:py-16 
+        sm:px-6 sm:py-14 
+        md:px-10 md:py-16 
         lg:px-[100px] lg:py-[109px] 
         lg:flex lg:flex-col lg:gap-[100px]
       "
