@@ -1,11 +1,11 @@
-import Card from "@/components/my-components/Card";
-import React from "react";
-import { details } from "@/constants/utlitites";
+import Card from '@/components/my-components/Card';
+import React from 'react';
+import { details } from '@/constants/utlitites';
 
 const Classes = () => {
   return (
-    <section className="px-4 py-10 lg:px-[100px] lg:py-[100px]">
-      <div className="flex flex-col gap-12 lg:gap-[100px]">
+    <section className='w-full max-w-6xl mx-auto px-6 py-16'>
+      <div className='flex flex-col gap-12 lg:gap-[100px]'>
         {details.map((details, index) => {
           return (
             <Card

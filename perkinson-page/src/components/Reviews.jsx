@@ -25,12 +25,12 @@ export default function Reviews() {
         <div className='inline-flex p-1 mt-8 bg-[#1c1d1f] rounded-full text-sm font-semibold text-gray-300 shadow-inner'>
           <Buttons
             label='Testimonials'
-            className='bg-blue-600 text-white px-[22px] py-[16px] rounded-[25px] hover:bg-blue-700 cursor-pointer transition w-40 flex justify-center'
+            className='bg-blue-600 text-white px-[24px] py-[16px] rounded-[25px] hover:bg-blue-700 cursor-pointer transition w-40 flex justify-center'
           />
 
           <Buttons
             label='Student Case Studies'
-            className=' bg-[#1c1d1f] text-[#777779] px-[22px] py-[16px] rounded-[25px] border-none hover:cursor-pointer transition w-40 flex justify-center'
+            className=' bg-[#1c1d1f] text-[#777779] px-[24px] py-[16px] rounded-[25px] border-none hover:cursor-pointer transition w-40 flex justify-center'
           />
         </div>
       </div>

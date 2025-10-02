@@ -7,7 +7,10 @@ export default function NavLinks() {
     <ul className='hidden md:flex space-x-6 text-black font-medium'>
       {navLinks.map((link) => (
         <li key={link.path}>
-          <Link to={link.path} className='hover:text-blue-400 transition'>
+          <Link
+            to={link.path}
+            className='text-gray-400 hover:text-blue-400 transition'
+          >
             {link.label}
           </Link>
         </li>
