@@ -19,22 +19,22 @@ const NewsLetter = () => {
           <img
             src={fb}
             alt="facebook"
-            className="w-10 h-10 sm:w-12 sm:h-12 lg:w-[48.99px] lg:h-[48.99px]"
+            className="w-10 h-10 sm:w-12 sm:h-12 lg:w-[48.99px] lg:h-[48.99px] transition-transform duration-300 ease-in-out hover:scale-110 hover:drop-shadow-[0_0_10px_rgba(38,125,255,0.6)] cursor-pointer"
           />
           <img
             src={twitter}
             alt="twitter"
-            className="w-10 h-10 sm:w-12 sm:h-12 lg:w-[48.99px] lg:h-[48.99px]"
+            className="w-10 h-10 sm:w-12 sm:h-12 lg:w-[48.99px] lg:h-[48.99px] transition-transform duration-300 ease-in-out hover:scale-110 hover:drop-shadow-[0_0_10px_rgba(29,155,240,0.6)] cursor-pointer"
           />
           <img
             src={instagram}
             alt="instagram"
-            className="w-10 h-10 sm:w-12 sm:h-12 lg:w-[48.99px] lg:h-[48.99px]"
+            className="w-10 h-10 sm:w-12 sm:h-12 lg:w-[48.99px] lg:h-[48.99px] transition-transform duration-300 ease-in-out hover:scale-110 hover:drop-shadow-[0_0_10px_rgba(225,48,108,0.6)] cursor-pointer"
           />
           <img
             src={whatsapp}
             alt="whatsapp"
-            className="w-10 h-10 sm:w-12 sm:h-12 lg:w-[48.99px] lg:h-[48.99px]"
+            className="w-10 h-10 sm:w-12 sm:h-12 lg:w-[48.99px] lg:h-[48.99px] transition-transform duration-300 ease-in-out hover:scale-110 hover:drop-shadow-[0_0_10px_rgba(37,211,102,0.6)] cursor-pointer"
           />
         </div>
       </article>
