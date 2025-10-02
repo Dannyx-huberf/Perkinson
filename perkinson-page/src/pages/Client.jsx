@@ -1,7 +1,7 @@
 // Client.jsx
 import React from "react";
-import line from "../assets/image/line.png";
-import shape from "../assets/image/shape.png";
+import line from "../assets/image/line.svg";
+import shape from "../assets/image/shape.svg";
 import TopPart from "@/components/my-components/TopPart";
 import Bottom from "@/components/my-components/Bottom";
 import arraw from "../assets/image/ewq.svg";
