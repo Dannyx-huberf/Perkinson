@@ -4,7 +4,7 @@ import { HeroSection } from "./components/HeroSection";
 
 const App = () => {
   return (
-    <div className="w-[90%] lg:w-[80%] mx-auto">
+    <div className="w-[90%]  mx-auto">
       <NavBar />
       <HeroSection />
     </div>
