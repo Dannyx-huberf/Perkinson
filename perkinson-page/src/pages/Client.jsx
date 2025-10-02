@@ -29,7 +29,7 @@ const Client = () => {
       />
 
       <TopPart />
-      <Bottom />
+      <ClentsBottom />
 
       {/* Button */}
       <button

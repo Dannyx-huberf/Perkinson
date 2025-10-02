@@ -1,6 +1,6 @@
 import React from "react";
 import FaqTab from "@/components/my-components/FaqTab";
-import { QA } from "@/constant/Info";
+import { QA } from "@/constants/Info";
 
 // Example images (replace with your own assets if needed)
 import DesignIcon from "../../assets/image/Frame1.svg";
