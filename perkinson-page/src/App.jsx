@@ -1,10 +1,10 @@
-import React from "react";
-import MyButton from "./components/my-components/MyButton";
+import React from 'react';
+import Reviews from './components/Reviews';
 
 const App = () => {
   return (
     <div>
-      <MyButton />
+      <Reviews />
     </div>
   );
 };
