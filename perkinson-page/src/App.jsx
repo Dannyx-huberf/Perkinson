@@ -1,10 +1,10 @@
-import React from "react";
-import MyButton from "./components/my-components/MyButton";
+import React from 'react';
+import Perks from './components/Perks';
 
 const App = () => {
   return (
     <div>
-      <MyButton />
+      <Perks />
     </div>
   );
 };
